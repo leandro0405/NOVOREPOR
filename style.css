@@ -121,7 +121,7 @@
     }
     
     /* Projetos */
-    .project-grid {
+    .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
@@ -154,3 +154,51 @@
     margin-bottom: 0.5rem;
     color: #2c3e50;
     }
+
+    /* Contato */
+    .contact-info {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .social-links a {
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+        margin-top: 1rem;
+    }
+
+        .social-links a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+background: #3498db;
+color: white;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+transition: background 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #2c3e50;
+        }
+
+        /*Rodapé */
+        footer {
+            background: #2c3e50;
+color: white;
+text-align: center;
+padding: 2rem;
+        }
+
+        /*Responsabilidade */
+        @media (max-width: 768px) {
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+            section {
+                padding: 2rem 5%;
+            }
+        }
+      
